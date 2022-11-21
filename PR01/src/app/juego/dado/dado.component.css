@@ -9,4 +9,8 @@
   background-color: black;
   color: aliceblue;
   margin: 0 1em;
+  border-radius: 10%;
+}
+.forma:hover{
+  background-color: grey;
 }
