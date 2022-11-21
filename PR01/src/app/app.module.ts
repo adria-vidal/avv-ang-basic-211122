@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DadoComponent } from './juego/dado/dado.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DadoComponent
   ],
   imports: [
     BrowserModule,
