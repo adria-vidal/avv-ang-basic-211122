@@ -1,0 +1,32 @@
+.box{
+  background-color: rgb(187, 253, 253);
+  height: 80vh;
+  border: 1px solid black;
+}
+.calc{
+  background-color: darkblue;
+  width: 300px;
+  height: 400px;
+}
+.calc-input{
+  margin: 2px;
+}
+.guardar{
+  background-color: darkcyan;
+  height: 58px;
+}
+.fila{
+  background-color: darkgoldenrod;
+  height: 60px;
+  border: 1px solid black;
+  display: flex;
+}
+.size-button{
+ width: 25%;
+}
+#cero{
+  width: 50%;
+}
+.c-igual{
+  width: 100%;
+}

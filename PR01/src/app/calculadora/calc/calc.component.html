@@ -1,1 +1,42 @@
-<p>calc works!</p>
+<div class="col-12 col-sm box d-flex justify-content-center align-items-center">
+                <div class="calc">
+                    <div class="calc-input">
+                        <input type="text" placeholder="0.00" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="guardar">
+
+                    </div>
+                    <div class="fila">
+                        <button type="button" class="btn btn-info size-button">1</button>
+                        <button type="button" class="btn btn-info size-button">2</button>
+                        <button type="button" class="btn btn-info size-button">3</button>
+                        <button (click)="getOperador('+')" type="button" class="btn btn-info size-button">+</button>
+                    </div>
+                    <div class="fila">
+                        <button type="button" class="btn btn-info size-button">4</button>
+                        <button type="button" class="btn btn-info size-button">5</button>
+                        <button type="button" class="btn btn-info size-button">6</button>
+                        <button (click)="getOperador('-')" type="button" class="btn btn-info size-button">-</button>
+                    </div>
+                    <div class="fila">
+                        <button type="button" class="btn btn-info size-button">7</button>
+                        <button type="button" class="btn btn-info size-button">8</button>
+                        <button type="button" class="btn btn-info size-button">9</button>
+                        <button (click)="getOperador('x')" type="button" class="btn btn-info size-button">*</button>
+                    </div>
+                    <div class="fila">
+                        <button type="button" id="cero" class="btn btn-info ">0</button>
+                        <button type="button" class="btn btn-info size-button">,</button>
+                        <button (click)="getOperador('/')" type="button" class="btn btn-info size-button">/</button>
+
+                    </div>
+                    <div class="fila">
+                        <button (click)="clear()" type="button" class="btn btn-info c-igual">C</button>
+                        <button (click)="calcular()" type="button" class="btn btn-info c-igual">=</button>
+
+                    </div>
+
+
+                </div>
+            </div>

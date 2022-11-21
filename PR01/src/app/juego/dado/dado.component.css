@@ -10,6 +10,7 @@
   color: aliceblue;
   margin: 0 1em;
   border-radius: 10%;
+  font-size: 32px;
 }
 .forma:hover{
   background-color: grey;
